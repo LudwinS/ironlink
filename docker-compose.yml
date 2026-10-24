@@ -1,0 +1,30 @@
+services:
+  # 🗄️ Base de datos relacional PostgreSQL 18
+  # Conforme a ISO/IEC 25010:2023 Cláusula 3.8 (Flexibilidad / Instalabilidad) y 3.5 (Fiabilidad / ACID)
+  postgres:
+    image: postgres:18-alpine
+    container_name: ironlink-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: IronLink
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ironlink_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d IronLink"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ironlink-net
+
+volumes:
+  ironlink_pgdata:
+    driver: local
+
+networks:
+  ironlink-net:
+    driver: bridge

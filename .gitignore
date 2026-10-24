@@ -1,0 +1,40 @@
+# --- Rust (Backend) ---
+backend/target/
+**/*.rs.bk
+backend/.env
+
+# --- Flutter (Frontend) ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+frontend/build/
+frontend/.dart_tool/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/windows/flutter/ephemeral/
+frontend/macos/Flutter/ephemeral/
+frontend/macos/Pods/
+frontend/macos/Podfile.lock
+
+# --- IDEs y Editores ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Sistema Operativo ---
+desktop.ini
+Thumbs.db
+.DS_Store
+
+.env
+
+
+# --- Herramientas de IA (worktrees de subagentes, configuración local) ---
+.claude/

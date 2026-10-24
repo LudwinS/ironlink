@@ -1,0 +1,35 @@
+name: frontend
+description: "IronLink — Flutter frontend"
+publish_to: 'none'
+version: 1.0.0+1
+ 
+environment:
+  sdk: ^3.11.0
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^13.0.0
+  flutter_riverpod: ^2.5.1
+  flutter_secure_storage: ^9.2.2
+  dio: ^5.5.0
+  file_picker: ^11.0.3
+  image: ^4.9.2
+  image_picker: ^1.2.3
+  camera_macos: ^0.1.1
+  flutter_webrtc: ^1.6.2+hotfix.3
+  web_socket_channel: ^3.0.3
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+ 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo-nocturne.png
+    - assets/logo-mark.png

@@ -1,0 +1,6 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// Build the debug simulator for the host architecture; this avoids the
+// multi-architecture lipo verification failure with the installed toolchain.
+ARCHS[sdk=iphonesimulator*] = $(NATIVE_ARCH_ACTUAL)
