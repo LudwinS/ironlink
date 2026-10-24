@@ -13,10 +13,15 @@ Proyecto desarrollado por el equipo **InnovaSoft** (7 integrantes) en la asignat
 
 ## Capturas
 
-<!-- Reemplaza estas imágenes por capturas reales de la app (ver docs/capturas/LEEME.md) -->
-| Inicio de sesión | Espacio de trabajo | Videollamada |
-|---|---|---|
-| ![Login](docs/capturas/login.png) | ![Nodo](docs/capturas/nodo-chat.png) | ![Videollamada](docs/capturas/videollamada.png) |
+**Espacio de trabajo con chat persistente**
+
+![Nodo con chat](docs/capturas/nodo-chat.png)
+
+| Inicio de sesión | Reuniones programadas |
+|---|---|
+| ![Inicio de sesión](docs/capturas/login.png) | ![Reuniones](docs/capturas/reuniones.png) |
+
+<sub>Capturas de la app web real con cuentas y datos de prueba.</sub>
 
 ## Funcionalidades
 

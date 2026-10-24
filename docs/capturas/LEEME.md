@@ -1,10 +1,7 @@
-# Capturas para el README
+# Capturas
 
-Guarda aquí capturas **reales** de la app en ejecución (no maquetas), con cuentas de prueba
-y sin nombres, correos ni fotos de compañeros:
+Capturas de la app web real (Flutter web + backend local) tomadas con cuentas y datos ficticios:
 
+- `nodo-chat.png` — un nodo con el chat del canal general
 - `login.png` — pantalla de inicio de sesión
-- `nodo-chat.png` — un nodo con el chat abierto
-- `videollamada.png` — una videollamada (con cámaras de prueba o avatares)
-
-Tamaño recomendado: 1280 px de ancho, formato PNG.
+- `reuniones.png` — reuniones programadas del nodo
